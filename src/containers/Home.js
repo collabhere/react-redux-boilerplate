@@ -10,7 +10,7 @@ const Home = () => {
         const name = "Aniket";
         setTestState({ name });
     }, []);
-    console.log('name', name);
+
     return (
         <>
             <div className={styles.homeContainer}>
