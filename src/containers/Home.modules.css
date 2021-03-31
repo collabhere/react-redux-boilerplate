@@ -1,0 +1,24 @@
+.homeContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0px auto;
+}
+
+.introImage {
+    margin: 30px 0px;
+    align-self: center;
+}
+
+.introImage > img {
+    width: 60vw;
+    height: 800px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+}
